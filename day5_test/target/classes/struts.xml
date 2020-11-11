@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+	<package name="default" extends="struts-default">  
+  
+		<action name="add" class="Controller.Add">  
+			<result name="add" type="redirect">index.jsp</result>
+		</action> 
+		
+		<action name="query" class="Controller.query">  
+			<result name="query" >query2.jsp</result>
+		</action> 
+  
+		<action name="update" class="Controller.update">  
+			<result name="update" >update.jsp</result>
+		</action> 
+		
+		<action name="delete" class="Controller.delete">  
+			<result name="delete" >delete.jsp</result>
+		</action> 
+</package>  
+</struts> 

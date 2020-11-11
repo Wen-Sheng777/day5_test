@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2020/5/29 ?U?? 02:31:29 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.student" table="STUDENT">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="chi" type="java.lang.Integer">
+            <column name="CHI" />
+        </property>
+        <property name="eng" type="java.lang.Integer">
+            <column name="ENG" />
+        </property>
+        <property name="math" type="java.lang.Integer">
+            <column name="MATH" />
+        </property>
+    </class>
+</hibernate-mapping>
